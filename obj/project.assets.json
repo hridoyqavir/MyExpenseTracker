@@ -2144,6 +2144,32 @@
           }
         }
       },
+      "Syncfusion.EJ2.AspNet.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2",
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.EJ2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.EJ2.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -6511,6 +6537,50 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
+    "Syncfusion.EJ2.AspNet.Core/29.1.33": {
+      "sha512": "JpwEbbXrTKLsHN9g4xJwHhiEG08f0jY3DESdUv1G1ClaQdsVv0d7hUmVdpKKylP2ezzDoO0u7UXg+iboNAyfxA==",
+      "type": "package",
+      "path": "syncfusion.ej2.aspnet.core/29.1.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net8.0/Syncfusion.EJ2.dll",
+        "lib/net8.0/Syncfusion.EJ2.xml",
+        "lib/net9.0/Syncfusion.EJ2.dll",
+        "lib/net9.0/Syncfusion.EJ2.xml",
+        "lib/netstandard2.0/Syncfusion.EJ2.dll",
+        "lib/netstandard2.0/Syncfusion.EJ2.xml",
+        "lib/netstandard2.1/Syncfusion.EJ2.dll",
+        "lib/netstandard2.1/Syncfusion.EJ2.xml",
+        "syncfusion.ej2.aspnet.core.29.1.33.nupkg.sha512",
+        "syncfusion.ej2.aspnet.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/29.1.33": {
+      "sha512": "86pl48kuJ+CR9MdclPV0vyqX/j8g7AYxBCZwJdtct35shlga4qAv6SWWzP7osPSUX/j3BBCtE49I8K5YBTj+Lg==",
+      "type": "package",
+      "path": "syncfusion.licensing/29.1.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net462/Syncfusion.Licensing.dll",
+        "lib/net8.0/Syncfusion.Licensing.dll",
+        "lib/net9.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.29.1.33.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -10180,7 +10250,8 @@
       "Microsoft.EntityFrameworkCore >= 6.0.35",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.35",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.35",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.18"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.18",
+      "Syncfusion.EJ2.AspNet.Core >= 29.1.33"
     ]
   },
   "packageFolders": {
@@ -10250,6 +10321,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.18, )"
+          },
+          "Syncfusion.EJ2.AspNet.Core": {
+            "target": "Package",
+            "version": "[29.1.33, )"
           }
         },
         "imports": [

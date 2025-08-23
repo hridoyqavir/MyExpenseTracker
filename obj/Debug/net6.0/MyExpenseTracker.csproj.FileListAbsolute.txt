@@ -251,3 +251,6 @@ A:\ASP.NET\C# practice codes\MyExpenseTracker\MyExpenseTracker\obj\Debug\net6.0\
 A:\ASP.NET\C# practice codes\MyExpenseTracker\MyExpenseTracker\obj\Debug\net6.0\ref\MyExpenseTracker.dll
 A:\ASP.NET\C# practice codes\MyExpenseTracker\MyExpenseTracker\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 A:\ASP.NET\C# practice codes\MyExpenseTracker\MyExpenseTracker\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+A:\ASP.NET\C# practice codes\MyExpenseTracker\MyExpenseTracker\bin\Debug\net6.0\Syncfusion.EJ2.dll
+A:\ASP.NET\C# practice codes\MyExpenseTracker\MyExpenseTracker\bin\Debug\net6.0\Syncfusion.Licensing.dll
+A:\ASP.NET\C# practice codes\MyExpenseTracker\MyExpenseTracker\obj\Debug\net6.0\MyExpenseTracker.MvcApplicationPartsAssemblyInfo.cs
